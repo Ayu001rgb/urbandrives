@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why Choose Us - Urban Drive</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+        .why-header {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://images.unsplash.com/photo-1485291571150-772bcfc10da5?q=80&w=2000&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <!-- NAVBAR -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex items-center">
+                    <a href="index.html" class="text-xl md:text-2xl font-bold text-red-600 flex items-center gap-2">
+                        <i class="fa-solid fa-car-side"></i> URBAN DRIVE
+                    </a>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-gray-700 hover:text-red-600 font-medium transition">Home</a>
+                    <a href="about.html" class="text-gray-700 hover:text-red-600 font-medium transition">About</a>
+                    <a href="services.html" class="text-gray-700 hover:text-red-600 font-medium transition">Services</a>
+                    <a href="whyus.html" class="text-red-600 font-bold transition">Why Us</a>
+                    <a href="index.html#contact" class="text-gray-700 hover:text-red-600 font-medium transition">Contact</a>
+                </div>
+                <div class="flex items-center gap-4 md:hidden">
+                    <a href="tel:+919876543210" class="text-gray-600 hover:text-red-600 transition"><i class="fa-solid fa-phone"></i></a>
+                    <button id="mobile-menu-btn" class="text-gray-800 text-2xl focus:outline-none"><i class="fa-solid fa-bars"></i></button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t shadow-lg absolute w-full">
+            <a href="index.html" class="block px-4 py-3 text-gray-700 hover:bg-red-50 border-b">Home</a>
+            <a href="about.html" class="block px-4 py-3 text-gray-700 hover:bg-red-50 border-b">About Us</a>
+            <a href="services.html" class="block px-4 py-3 text-gray-700 hover:bg-red-50 border-b">Services</a>
+            <a href="whyus.html" class="block px-4 py-3 text-red-600 font-bold bg-red-50 border-b">Why Us</a>
+            <a href="index.html#contact" class="block px-4 py-3 text-gray-700 hover:bg-red-50 border-b">Contact</a>
+        </div>
+    </nav>
+
+    <!-- HEADER SECTION -->
+    <header class="why-header h-80 flex items-center justify-center text-center px-4">
+        <div>
+            <h4 class="text-red-500 font-bold uppercase tracking-widest mb-2">The Urban Drive Advantage</h4>
+            <h1 class="text-4xl md:text-6xl font-bold text-white mb-4">Why Choose Us?</h1>
+            <p class="text-gray-300 max-w-2xl mx-auto">See why 10,000+ Mumbaikars prefer Urban Drive over local taxis and other rentals.</p>
+        </div>
+    </header>
+
+    <!-- MAIN FEATURES GRID -->
+    <section class="py-16 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-10">
+                
+                <!-- Feature 1 -->
+                <div class="text-center p-6 border rounded-xl hover:shadow-xl transition duration-300">
+                    <div class="bg-red-100 w-20 h-20 mx-auto rounded-full flex items-center justify-center text-red-600 text-3xl mb-6">
+                        <i class="fa-solid fa-hand-holding-dollar"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Transparent Pricing</h3>
+                    <p class="text-gray-500 text-sm">What you see is what you pay. Price includes insurance and taxes. No shock at the counter.</p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="text-center p-6 border rounded-xl hover:shadow-xl transition duration-300">
+                    <div class="bg-red-100 w-20 h-20 mx-auto rounded-full flex items-center justify-center text-red-600 text-3xl mb-6">
+                        <i class="fa-solid fa-shield-heart"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Fully Insured Cars</h3>
+                    <p class="text-gray-500 text-sm">Drive with peace of mind. Our damage liability policy ensures your maximum safety and minimum liability.</p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="text-center p-6 border rounded-xl hover:shadow-xl transition duration-300">
+                    <div class="bg-red-100 w-20 h-20 mx-auto rounded-full flex items-center justify-center text-red-600 text-3xl mb-6">
+                        <i class="fa-solid fa-road"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Unlimited Kilometers</h3>
+                    <p class="text-gray-500 text-sm">Planning a long trip to Goa? Go ahead! We don't count kilometers on most of our bookings.</p>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="text-center p-6 border rounded-xl hover:shadow-xl transition duration-300">
+                    <div class="bg-red-100 w-20 h-20 mx-auto rounded-full flex items-center justify-center text-red-600 text-3xl mb-6">
+                        <i class="fa-solid fa-wrench"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">24/7 Roadside Assist</h3>
+                    <p class="text-gray-500 text-sm">Stuck on the Mumbai-Pune Expressway? One call and our support team will reach you.</p>
+                </div>
+
+                <!-- Feature 5 -->
+                <div class="text-center p-6 border rounded-xl hover:shadow-xl transition duration-300">
+                    <div class="bg-red-100 w-20 h-20 mx-auto rounded-full flex items-center justify-center text-red-600 text-3xl mb-6">
+                        <i class="fa-solid fa-pump-soap"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Clean & Sanitized</h3>
+                    <p class="text-gray-500 text-sm">Hygiene is our priority. Every car is deep cleaned and sanitized before delivery.</p>
+                </div>
+
+                <!-- Feature 6 -->
+                <div class="text-center p-6 border rounded-xl hover:shadow-xl transition duration-300">
+                    <div class="bg-red-100 w-20 h-20 mx-auto rounded-full flex items-center justify-center text-red-600 text-3xl mb-6">
+                        <i class="fa-solid fa-house-chimney"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Home Delivery</h3>
+                    <p class="text-gray-500 text-sm">Don't want to travel? We deliver the car to your doorstep in Mumbai, Thane, and Navi Mumbai.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- COMPARISON TABLE SECTION -->
+    <section class="py-16 bg-gray-100">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900">Urban Drive vs Others</h2>
+                <p class="text-gray-500 mt-2">Compare and decide for yourself.</p>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                <table class="w-full text-left border-collapse">
+                    <thead>
+                        <tr class="bg-gray-900 text-white">
+                            <th class="p-4 md:p-6 w-1/3">Features</th>
+                            <th class="p-4 md:p-6 w-1/3 bg-red-600 text-center text-lg">URBAN DRIVE</th>
+                            <th class="p-4 md:p-6 w-1/3 text-center text-gray-400">Local Taxi / Others</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-gray-700">
+                        <tr class="border-b">
+                            <td class="p-4 md:p-6 font-bold">Privacy</td>
+                            <td class="p-4 md:p-6 text-center bg-red-50 font-bold text-green-600"><i class="fa-solid fa-check-circle mr-2"></i> 100% Privacy</td>
+                            <td class="p-4 md:p-6 text-center"><i class="fa-solid fa-circle-xmark text-red-400 mr-2"></i> Driver Present</td>
+                        </tr>
+                        <tr class="border-b">
+                            <td class="p-4 md:p-6 font-bold">Security Deposit</td>
+                            <td class="p-4 md:p-6 text-center bg-red-50 font-bold text-green-600"><i class="fa-solid fa-check-circle mr-2"></i> Instant Refund</td>
+                            <td class="p-4 md:p-6 text-center"><i class="fa-solid fa-circle-xmark text-red-400 mr-2"></i> Takes Days/Weeks</td>
+                        </tr>
+                        <tr class="border-b">
+                            <td class="p-4 md:p-6 font-bold">Car Condition</td>
+                            <td class="p-4 md:p-6 text-center bg-red-50 font-bold text-green-600"><i class="fa-solid fa-check-circle mr-2"></i> New / Well Maintained</td>
+                            <td class="p-4 md:p-6 text-center"><i class="fa-solid fa-circle-xmark text-red-400 mr-2"></i> Old / Rented Out</td>
+                        </tr>
+                        <tr class="border-b">
+                            <td class="p-4 md:p-6 font-bold">Hidden Charges</td>
+                            <td class="p-4 md:p-6 text-center bg-red-50 font-bold text-green-600"><i class="fa-solid fa-check-circle mr-2"></i> Zero</td>
+                            <td class="p-4 md:p-6 text-center"><i class="fa-solid fa-circle-xmark text-red-400 mr-2"></i> Driver Bata / Night Charge</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 md:p-6 font-bold">Support</td>
+                            <td class="p-4 md:p-6 text-center bg-red-50 font-bold text-green-600"><i class="fa-solid fa-check-circle mr-2"></i> 24/7 RSA</td>
+                            <td class="p-4 md:p-6 text-center"><i class="fa-solid fa-circle-xmark text-red-400 mr-2"></i> No Support</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-20 bg-white text-center">
+        <h2 class="text-3xl font-bold mb-6">Convinced? Let's Drive!</h2>
+        <a href="index.html#contact" class="bg-red-600 text-white text-lg font-bold px-10 py-4 rounded-full hover:bg-gray-900 transition shadow-lg">
+            BOOK YOUR CAR NOW
+        </a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-900 text-gray-400 py-12">
+        <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-4 gap-8 text-sm">
+            <div class="md:col-span-1">
+                <h3 class="text-white text-xl font-bold mb-4 flex items-center gap-2"><i class="fa-solid fa-car"></i> URBAN DRIVE</h3>
+                <p class="mb-4">Best self-drive car rentals in Mumbai.</p>
+                <div class="flex gap-4">
+                    <a href="#" class="hover:text-red-500 text-lg"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="hover:text-red-500 text-lg"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div>
+                <h3 class="text-white text-lg font-bold mb-4">Company</h3>
+                <ul class="space-y-2">
+                    <li><a href="index.html" class="hover:text-white transition">Home</a></li>
+                    <li><a href="about.html" class="hover:text-white transition">About Us</a></li>
+                    <li><a href="terms.html" class="hover:text-white transition">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-white text-lg font-bold mb-4">Locations</h3>
+                <ul class="space-y-2">
+                    <li>Mumbai Airport</li>
+                    <li>Navi Mumbai</li>
+                    <li>Andheri West</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-white text-lg font-bold mb-4">Newsletter</h3>
+                <div class="flex">
+                    <input type="email" placeholder="Email" class="bg-gray-800 text-white px-4 py-2 w-full outline-none rounded-l">
+                    <button class="bg-red-600 text-white px-4 py-2 rounded-r hover:bg-red-700"><i class="fa-solid fa-paper-plane"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-gray-800 mt-10 pt-6 text-center">
+            &copy; 2023 Urban Drive Mumbai. All Rights Reserved.
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT FOR MOBILE MENU -->
+    <script>
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+</html>
